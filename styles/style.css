@@ -98,11 +98,17 @@ nav ul a{
         starting main section
 ........................... */
 .center_portion{
-
-    padding: 50px 301px 45px 301px;
-    display: flex;
+    
+    
+   /* justify-content: space-between;*/
+    
     
 }
+.divider{
+    margin: 50px 301px 45px 301px;
+    display: flex;
+}
+
 
 
 
