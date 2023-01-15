@@ -7,7 +7,7 @@
     font-weight: 400;
 }
 /* --------------------------------------
-    Starting of header and banner section 
+    /* Starting of header and banner section  */
 ------------------------------------------*/
 
 .container{
@@ -89,9 +89,82 @@ nav ul a{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+/* -------------------------------------
+    /* End of header and banner section  */
+----------------------------------------*/
+
+/*............................
+        starting main section
+........................... */
+.center_portion{
+
+    padding: 50px 301px 45px 301px;
+    display: flex;
+    
+}
+
+
+
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.images{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.gallery img{
+    width:100%
+    
+}
+.side_content{
+    margin-top: 73px;
+    margin-left: 100px;
+}
+.first_side_title{
+    color: #727272;  
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    margin:0;
+
+
+
+}
+.for_design{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    margin:0;
+
+}
+.second_side_title{
+    margin:0;
+    color: #FF900E;  
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+
+}
+.side_article{
+    color: #727272;
+    
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.side_content button{
+    margin-left: 0;
+
+
+}
+
+
+
 .hide{
     display: none;
 }
-/* -------------------------------------
-    End of header and banner section 
-----------------------------------------*/
